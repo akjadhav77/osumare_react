@@ -1,0 +1,35 @@
+.services {
+    background-image: url(../../../public/assets/images/asset_services.jpeg);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.services_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin-inline: auto;
+}
+
+.services_container h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 125px;
+}
+
+.services_button {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.services_button:hover {
+    border: 2px solid rgb(73, 202, 253);
+    transition: all 0.4s ease-in-out;
+}

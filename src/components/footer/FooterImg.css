@@ -1,0 +1,19 @@
+.footerimg_flex {
+    max-width: 1400px;
+    margin-inline: auto;
+    background-color: rgba(255, 255, 255, 0.281);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerimg_flex img {
+    margin-top: 25px;
+}
+
+.footerimg_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

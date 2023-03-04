@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Achievement from './components/achievement/Achievement';
+import Footer1 from './components/footer/Footer1';
+import Footer2 from './components/footer/Footer2';
+import FooterImg from './components/footer/FooterImg';
+import Location from './components/location/Location';
+import MainFlex from './components/MainFlex';
+import NavBar from './components/NavBar';
+import Partner from './components/partner/Partner';
+import Services from './components/services/Services';
+import Support from './components/support/Support';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='containerr'>
+      <NavBar/>
+      <MainFlex/>
+      <Achievement/>
+      <Support/>
+      <Location/>
+      <Services/>
+      <Partner/>
+      <Footer1/>
+      <Footer2/>
+      <FooterImg/>
+    
     </div>
   );
 }

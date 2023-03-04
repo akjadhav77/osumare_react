@@ -1,0 +1,74 @@
+.achievement_flex {
+    width: 100%;
+    height: 910px;
+    /* border: 2px solid red; */
+}
+
+.achievement_desc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px 45px;
+    margin-top: 25px;
+    max-width: 1100px;
+}
+
+.achi_text p:nth-child(1) {
+    margin-top: 75px;
+    font-size: 8rem;
+    font-weight: 400;
+    color: rgb(30, 41, 44);
+}
+
+.achi_text p:nth-child(2) {
+    margin-top: -6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.achievement_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.desc_card {
+    display: flex;
+    align-items: center;
+    /* justify-content:center; */
+    flex-direction: row;
+    gap: 1px;
+    width: 310px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(241, 241, 241, 0.25);
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: 0.2s ease-out;}
+
+.desc_card:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    box-shadow: 0 0 30px #e4e4e4;
+    cursor: pointer;
+}
+
+.desc_card img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.achi_text {
+    text-align: center;
+}
+
+.desc_heading {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+
+
