@@ -1,9 +1,3 @@
-/* .container {
-    max-width: 1345px;
-    giving margin inline: auto to give left and right margin at the same time so that container will remain in center
-    background-image: url(../../../public/assets/images/main_image.png);
-  }
-   */
 .main_flex {
     max-width: 1349px;
     margin-inline: auto;

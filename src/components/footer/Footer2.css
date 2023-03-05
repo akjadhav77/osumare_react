@@ -1,13 +1,13 @@
+.background_clr2 {
+    background-color: rgba(255, 255, 255, 0.281);
+}
+
 .mainfooter_flex {
     max-width: 1400px;
     margin-inline: auto;
-    background-color: rgba(255, 255, 255, 0.281);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-top: 25px; */
-    
-    /* flex-direction: column; */
 }
 
 .mainfooter_area {
@@ -24,7 +24,7 @@
     justify-content: flex-start;
     flex-direction: column;
     width: 300px;
-    height: 450px;
+    height: 525px;
     text-align: center;
 }
 
@@ -36,15 +36,16 @@
 }
 
 .mainfooter_desc a {
-    margin-top: 3px;
+    /* margin-top: 6px; */
+    padding: 10px 0;
     color: rgb(231, 230, 230);
     text-decoration: none;
-    padding: 5px 0;
 }
 
 .mainfooter_desc a:hover {
     text-shadow: 0 0 15px #00e1ff;
     transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
 }
 
 

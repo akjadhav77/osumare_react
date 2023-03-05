@@ -49,10 +49,7 @@
     color: rgb(80, 80, 80);
     border-radius: 5px;
     cursor: pointer;
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
     transition: all 0.4s ease-in-out;
-
 } 
 
 

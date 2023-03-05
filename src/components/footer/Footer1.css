@@ -1,7 +1,7 @@
 .footer_flex {
     max-width: 1400px;
     margin-inline: auto;
-    background-color: rgba(255, 255, 255, 0.281);
+    /* background-color: rgba(255, 255, 255, 0.281); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,12 +10,15 @@
     /* flex-direction: column; */
 }
 
+.background_clr {
+    background-color: rgba(124, 124, 124, 0.281);
+}
+
 .footer_area {
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
     /* flex-wrap: wrap; */
 }
 
@@ -39,6 +42,7 @@
 .footer_desc p {
     margin-top: 3px;
     color: rgb(231, 230, 230);
+    text-shadow: 0 3px 5px black;
 }
 
 .footer_desc i {
